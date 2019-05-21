@@ -1,3 +1,15 @@
+a {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
 .container {
   width: 100%;
   height: 600px;
@@ -7,20 +19,20 @@
 
 .item {
   border: solid black 2px;
+  color: #77c5d7;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .navigation-column {
   background-color: #44475a;
 }
 
-.nav-bar {
-  width: 100%;
-}
-
 .nav-item {
-  width: 100%;
   padding: 10px;
   border: red solid 2px;
+  text-transform: uppercase;
+  justify-content: left;
 }
 
 .popular-column {
