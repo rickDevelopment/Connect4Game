@@ -105,4 +105,16 @@ body {
   color: #e6db74;
 }
 
+.heading {
+  display: inline-block;
+}
+
+/************ Time **************/
+.clock {
+  width: 100%;
+  color: #6272a4;
+  font-size: 8em;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */
