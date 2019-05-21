@@ -108,12 +108,30 @@ width: 20%
 }
 
 /************ Time **************/
-.clock{
-  width: 100%;
+.time{
+   width: 100%;
   color: #6272a4;
+}
+.clock{
   font-size: 8em;
   font-weight: bold;
+  border-top: solid .5px;
 }
+.clock{
+  padding-top:15%;
+  font-weight: 600;
+}
+.am-pm, .date{
+  font-size:.5em;
+  font-weight: 300;
+}
+
+.date{
+  font-size: 2em;
+  font-weight: 300;
+}
+
+
 
 // .nav-footer{
 //   position: fixed;
