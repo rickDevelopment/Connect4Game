@@ -1,9 +1,6 @@
-a {
+a, a:link {
   text-decoration: none;
-}
-
-a:link {
-  text-decoration: none;
+  color: inherit;
 }
 
 body {
@@ -75,7 +72,7 @@ body {
 
 .post-date {
   color: #7b7b7f;
-  margin-left: 50px;
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
