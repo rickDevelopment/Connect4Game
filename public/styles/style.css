@@ -26,6 +26,7 @@ body {
 
 .navigation-column {
   background-color: #44475a;
+  width: 13%;
 }
 
 .nav-item {
@@ -36,11 +37,45 @@ body {
 }
 
 .popular-column {
-  flex-grow: 1;
+  width: 20%;
 }
 
 .relevant-column {
   flex-grow: 2;
+}
+
+.githubIssues-column {
+  width: 20%;
+}
+
+.posted-by, .comment-link, .summary, .history-text, .git, .issue-num {
+  font-size: 0.8em;
+  text-align: left;
+  text-transform: capitalize;
+  padding-left: 10px;
+}
+
+.summary {
+  color: #ffff;
+}
+
+.posted-by, .issue-num {
+  color: #ccd37c;
+  font-weight: bold;
+}
+
+.comment-link {
+  color: #ae5c96;
+}
+
+.history-text, .git-repo {
+  width: 100%;
+  color: #515d84;
+}
+
+.post-date {
+  color: #7b7b7f;
+  margin-left: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
