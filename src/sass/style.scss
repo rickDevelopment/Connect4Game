@@ -6,7 +6,8 @@ color:inherit;
 
 
 body{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: monospace;
+  font-size: 12px;
 }
 .container{
   width: 100%;
@@ -51,7 +52,7 @@ width: 20%
 
 
 .posted-by, .comment-link, .summary, .history-text, .git, .issue-num{
-  font-size: .8em;
+  font-size: .9em;
   text-align: left;
   text-transform: capitalize;
   // width: 40%;
@@ -64,6 +65,9 @@ width: 20%
 .posted-by, .issue-num{
   color:#ccd37c;
   font-weight: bold;
+}
+.posted-by-text{
+  color: #8be9fc;
 }
 .comment-link{
   color: #ae5c96;
@@ -113,7 +117,7 @@ width: 20%
   color: #6272a4;
 }
 .clock{
-  font-size: 8em;
+  font-size: 7em;
   font-weight: bold;
   border-top: solid .5px;
 }
@@ -131,6 +135,17 @@ width: 20%
   font-weight: 300;
 }
 
+/*************FAQ*************/
+.faq{
+  font-style: normal;
+  color: #6272a4;
+  text-align: center;
+  padding:0 20%;
+  // display: inline-block;
+}
+.fa-question-circle, .dont-show{
+  color: #f7b76b;
+}
 
 
 // .nav-footer{
