@@ -1,6 +1,8 @@
 
-let hour = document.querySelector('.hour')
-let minutes = document.querySelector('.minute')
+const hour = document.querySelector('.hour');
+const minutes = document.querySelector('.minute');
+const month = document.querySelector('.month');
+const day = document.querySelector('.day');
 const date = new Date(); 
 
 
@@ -26,14 +28,19 @@ function updateTime(){
 
 function updateDate(){
   const months =[
-    "January","February","March","April","June","July","August","September","October","November","December"
+    "January","February","March","April","May","June","July","August","September","October","November","December"
   ]
 
-  let getMonth 
+  let getMonth = date.getMonth()
+  let getDay = date.getDate()
+
+  month.innerHTML = months[getMonth]
+  day.innerHTML = getDay;
 
 }
 
 updateTime()
+updateDate()
 
 
 // console.log(`${date.getHours()}:${date.getMinutes()}`)
