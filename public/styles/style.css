@@ -5,7 +5,7 @@ a, a:link {
 
 body {
   font-family: monospace;
-  font-size: 12px;
+  font-size: 1em;
 }
 
 .container {
@@ -16,12 +16,12 @@ body {
 }
 
 .item {
-  border: solid black 2px;
   color: #77c5d7;
   text-transform: uppercase;
   text-align: center;
 }
 
+/********NAV BAR********/
 .navigation-column {
   background-color: #44475a;
   width: 13%;
@@ -31,10 +31,120 @@ body {
   padding: 10px;
   text-transform: uppercase;
   justify-content: left;
-  font-weight: 300;
   text-align: left;
 }
 
+.nav-icon {
+  color: #44475a;
+  padding: 2px;
+  border-radius: 2px;
+  height: 10%;
+  width: 10%;
+  text-align: center;
+}
+
+.nav-name {
+  font-size: 1.3em;
+}
+
+.setting {
+  color: #8be9fc;
+}
+
+.fa-wrench {
+  background-color: #8be9fc;
+}
+
+.gist {
+  color: #73f27c;
+}
+
+.fa-code {
+  background-color: #73f27c;
+}
+
+.stack-overflow {
+  color: #f7b76b;
+}
+
+.fa-stack-overflow {
+  background-color: #f7b76b;
+}
+
+.trending {
+  color: #ed76c4;
+}
+
+.fa-chart-line {
+  background-color: #ed76c4;
+}
+
+.scratch-pad {
+  color: #bc93f9;
+}
+
+.fa-pencil-alt {
+  background-color: #bc93f9;
+}
+
+.playground {
+  color: #f8f8f2;
+}
+
+.fa-lightbulb {
+  background-color: #f8f8f2;
+}
+
+.help {
+  color: #e6db74;
+}
+
+.fa-question {
+  background-color: #e6db74;
+}
+
+.heading {
+  display: inline-block;
+}
+
+.logo {
+  color: #6272a4;
+}
+
+.nav-footer {
+  margin-top: 100%;
+}
+
+.footer-icon {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: 2%;
+  padding: 2%;
+  border-radius: 20px;
+  font-size: 1.2em;
+  height: 10%;
+  width: 10%;
+  text-align: center;
+  color: #ffff;
+}
+
+.fa-facebook-f {
+  background-color: #3b5897;
+}
+
+.fa-linkedin-in {
+  background-color: #2b7fb1;
+}
+
+.fa-twitter {
+  background-color: #3daced;
+}
+
+.fa-reddit-alien {
+  background-color: #5f98ce;
+}
+
+/*******************END NAV*********/
 .popular-column {
   width: 20%;
 }
@@ -79,39 +189,6 @@ body {
 .post-date {
   color: #7b7b7f;
   margin-left: 10px;
-}
-
-/********NAV BAR********/
-.setting {
-  color: #8be9fc;
-}
-
-.gist {
-  color: #73f27c;
-}
-
-.stack-overflow {
-  color: #f7b76b;
-}
-
-.trending {
-  color: #ed76c4;
-}
-
-.scratch-pad {
-  color: #bc93f9;
-}
-
-.playground {
-  color: #f8f8f2;
-}
-
-.help {
-  color: #e6db74;
-}
-
-.heading {
-  display: inline-block;
 }
 
 /************ Time **************/
