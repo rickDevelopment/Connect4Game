@@ -44,6 +44,8 @@ function updateDate(){
 updateTime()
 updateDate()
 
+setTimeout(updateTime,1000)
+
 
 // console.log(`${date.getHours()}:${date.getMinutes()}`)
 
