@@ -289,8 +289,9 @@ table {
   margin-top: 0;
 }
 
-.comment-link {
+.comment-link a {
   margin-bottom: 2rem;
+  text-decoration: underline;
 }
 
 /************ Time **************/
