@@ -54,19 +54,23 @@ body{
 /********NAV BAR********/
 .navigation-column{
   background-color: #44475a;
-  min-width: 15vw;
+  min-width: 11vw;
   flex-grow: 1;
 }
-
+nav.nav-bar {
+  margin-left: 5px;
+  margin-top: 20px;
+}
 .nav-item{
-  padding: 10px;
+  padding: 2px;
   margin-left: 2px;
+  margin-top: 5%;
   text-transform: uppercase;
   text-align: left;
 }
 
 .nav-name{
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 .setting{
@@ -126,6 +130,7 @@ background-color: #f8f8f2;
 .nav-footer{
 margin-top: 100%;
 align-self: flex-end;
+text-align: center;
 
 }
 
@@ -166,7 +171,7 @@ min-width: 300px;
 }
 
 .item{
-  margin: 0 10px;
+  margin-right: 10px;
 }
 .summary{
 margin: 0 5px;
@@ -195,7 +200,7 @@ color: #ffff;
 
 .history-text{
   white-space: nowrap;
-  width: 350px;
+  width: 380px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
