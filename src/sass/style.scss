@@ -5,11 +5,13 @@ a, a:link{
 text-decoration: none;
 color:inherit;
 }
- 
+ html{
+   font-size: 10px;
+ }
 
 body{
   font-family: monospace;
-  font-size: 1em;
+  // font-size: 1em;
 }
 .container{
   width: 100%;
@@ -21,30 +23,30 @@ body{
 
 /***********ICONS**********/
 .icon{
-  height: 24px;
-  width: 24px;
-  // font-size: 1.2em;
+  height: 1.5rem;
+  width: 1.5rem;
+  font-size: 1.2rem;
   text-align: center; 
-  padding: 2px;
+  padding: .2rem;
 }
 .nav-icon{
   color: #44475a;
-  border-radius: 2px;
+  border-radius: .2rem;
 
 }
 .relevant-icon{
-  font-size: 1.5em;
+  font-size: 1.5rem;
   background-color: #f8f8f2;
   color: #3daced; 
-   padding: 0;
+  padding: 0;
 }
 
 .footer-icon{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 5px;
-  border-radius: 20px;
-  font-size: 1.2em;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: .2rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
   color: #ffff;
   }
 
@@ -58,19 +60,19 @@ body{
   flex-grow: 1;
 }
 nav.nav-bar {
-  margin-left: 5px;
-  margin-top: 20px;
+  margin-left: .5rem;
+  margin-top: 2rem;
 }
 .nav-item{
-  padding: 2px;
-  margin-left: 2px;
-  margin-top: 5%;
+  padding: .2rem;
+  margin-left: .2rem;
+  margin-top: 1.2rem;
   text-transform: uppercase;
   text-align: left;
 }
 
 .nav-name{
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .setting{
@@ -128,10 +130,9 @@ background-color: #f8f8f2;
   color: #6272a4;
 }
 .nav-footer{
-margin-top: 100%;
+margin-top: 10rem;
 align-self: flex-end;
 text-align: center;
-
 }
 
 
@@ -154,7 +155,7 @@ text-align: center;
   color: #77c5d7;
   text-transform: uppercase;
   // text-align: center;
-  font-size: 1.2em;
+  font-size: 1.2rem;
   font-weight: 100;
 }
 
@@ -167,16 +168,16 @@ text-align: center;
 .quater{
 flex-grow: 1;
 width: 25vw;
-min-width: 300px;
+min-width: 20rem;
 }
 
 .item{
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 .summary{
-margin: 0 5px;
+margin: 0 .5rem;
 
-border-left: #44475a solid 3px;
+border-left: #44475a solid .3rem;
 color: #ffff;
 }
 .popular-article{
@@ -208,7 +209,7 @@ color: #ffff;
 table{
   width: 100%;
   // border:  red solid 2px;
-  border-bottom: solid #515d84 .2px;
+  border-bottom: solid #515d84 .1rem;
 }
 
 /*****GITHUB ISSUES*****/
@@ -225,7 +226,7 @@ table{
   margin-bottom: 10%;
 }
   .summary, .history-text{
-  font-size: 1em;
+  font-size: 1rem;
   text-align: left;
   text-transform: capitalize;
   padding-left: 10px;
@@ -254,7 +255,7 @@ margin-bottom: 5%;
 }
 .comment-link, .pink{
   color: #ae5c96;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 
 }
 
@@ -267,18 +268,18 @@ margin-bottom: 5%;
   margin-top: 10%;
 }
 .clock{
-  font-size: 7em;
+  font-size: 10rem;
   font-weight: 400;
 
 }
 
 .am-pm{
-  font-size:.5em;
+  font-size: 3rem;
   font-weight: 300;
 }
 
 .date,.month,.year,.day{
-  font-size: 1.5em;
+  font-size: 2rem;
   font-weight: 100;
 }
 
