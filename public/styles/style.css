@@ -152,7 +152,7 @@ body {
   background-color: #3daced;
 }
 
-.fa-reddit-alien {
+.footer-reddit {
   background-color: #5f98ce;
 }
 
@@ -185,6 +185,10 @@ body {
   color: #ffff;
 }
 
+.popular-article {
+  margin-bottom: 10%;
+}
+
 /*********RELEVANT COLUMN***********/
 .relevant-column {
   flex-grow: 3;
@@ -209,6 +213,7 @@ body {
 
 table {
   width: 100%;
+  border-bottom: solid #515d84 0.2px;
 }
 
 /*****GITHUB ISSUES*****/
@@ -216,14 +221,32 @@ table {
   flex-grow: 1;
 }
 
-.summary, .history-text, .git, .issue-num {
+.git-heading {
+  margin-bottom: 0;
+}
+
+.issues-header {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.summary, .history-text {
   font-size: 1em;
   text-align: left;
   text-transform: capitalize;
   padding-left: 10px;
 }
 
-.posted-by, .issue-num {
+.git {
+  margin-bottom: 10%;
+}
+
+.git-heading-text {
+  margin-bottom: 5%;
+}
+
+.posted-by, .issue-num, .yellow {
   color: #ccd37c;
 }
 
@@ -231,11 +254,15 @@ table {
   color: #8be9fc;
 }
 
-.reddit-score {
+.reddit-score, .gray {
   color: #515d84;
 }
 
-.comment-link {
+.git-heading-text {
+  margin-top: 0;
+}
+
+.comment-link, .pink {
   color: #ae5c96;
   margin-bottom: 10px;
 }
@@ -244,38 +271,38 @@ table {
 .time {
   width: 100%;
   color: #6272a4;
+  text-align: center;
+  margin-top: 10%;
 }
 
 .clock {
   font-size: 7em;
-  border-top: solid 0.5px;
-}
-
-.clock {
-  padding-top: 15%;
   font-weight: 400;
 }
 
-.am-pm, .date {
+.am-pm {
   font-size: 0.5em;
   font-weight: 300;
 }
 
-.date {
-  font-size: 2em;
-  font-weight: 300;
+.date, .month, .year, .day {
+  font-size: 1.5em;
+  font-weight: 100;
 }
 
 /*************FAQ*************/
 .faq {
+  width: 100%;
   font-style: normal;
   color: #6272a4;
   text-align: center;
-  padding: 0 20%;
+  display: inline-block;
 }
 
 .fa-question-circle, .dont-show {
   color: #f7b76b;
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -139,7 +139,7 @@ align-self: flex-end;
 .fa-twitter{
   background-color: #3daced;
 }
-.fa-reddit-alien{
+.footer-reddit{
   background-color: #5f98ce;
 }
 
@@ -174,6 +174,9 @@ margin: 0 5px;
 border-left: #44475a solid 3px;
 color: #ffff;
 }
+.popular-article{
+  margin-bottom: 10%;
+}
 
 /*********RELEVANT COLUMN***********/
 
@@ -200,6 +203,7 @@ color: #ffff;
 table{
   width: 100%;
   // border:  red solid 2px;
+  border-bottom: solid #515d84 .2px;
 }
 
 /*****GITHUB ISSUES*****/
@@ -207,73 +211,85 @@ table{
   flex-grow: 1;
   // width: 20%;
 }
-
-
-
-  .summary, .history-text, .git, .issue-num{
+.git-heading{
+  margin-bottom: 0;
+}
+.issues-header{
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10%;
+}
+  .summary, .history-text{
   font-size: 1em;
   text-align: left;
   text-transform: capitalize;
-  // width: 40%;
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
+.git{
+margin-bottom: 10%;
+}
+.git-heading-text{
+margin-bottom: 5%;
+}
 
-.posted-by, .issue-num{
+.posted-by, .issue-num, .yellow{
   color:#ccd37c;
  
 }
 .posted-by-text{
   color: #8be9fc;
 }
-.reddit-score{
+.reddit-score ,.gray{
   color: #515d84;
 
 }
-.comment-link{
+.git-heading-text{
+  margin-top: 0;
+}
+.comment-link, .pink{
   color: #ae5c96;
   margin-bottom: 10px;
 
 }
 
-
-
-
-
-
 /************ Time **************/
 .time{
-   width: 100%;
+  width: 100%;
   color: #6272a4;
+  text-align: center;
+  // border: red 2px solid;
+  margin-top: 10%;
 }
 .clock{
   font-size: 7em;
-  border-top: solid .5px;
-}
-.clock{
-  padding-top:15%;
   font-weight: 400;
+
 }
-.am-pm, .date{
+
+.am-pm{
   font-size:.5em;
   font-weight: 300;
 }
 
-.date{
-  font-size: 2em;
-  font-weight: 300;
+.date,.month,.year,.day{
+  font-size: 1.5em;
+  font-weight: 100;
 }
 
 /*************FAQ*************/
 .faq{
+  width: 100%;
   font-style: normal;
   color: #6272a4;
   text-align: center;
-  padding:0 20%;
-  // display: inline-block;
+  display: inline-block;
+  // border: red 2px solid;
 }
 .fa-question-circle, .dont-show{
   color: #f7b76b;
+  margin: 0;
+  padding: 0;
 }
 
 
