@@ -20,6 +20,39 @@ body {
   margin: auto;
 }
 
+/***********ICONS**********/
+.icon {
+  height: 24px;
+  width: 24px;
+  text-align: center;
+  padding: 2px;
+}
+
+.nav-icon {
+  color: #44475a;
+  border-radius: 2px;
+}
+
+.relevant-icon {
+  font-size: 1.5em;
+  background-color: #f8f8f2;
+  color: #3daced;
+  padding: 0;
+}
+
+.footer-icon {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  border-radius: 20px;
+  font-size: 1.2em;
+  color: #ffff;
+}
+
+.heading-icon {
+  color: #77c5d7;
+}
+
 /********NAV BAR********/
 .navigation-column {
   background-color: #44475a;
@@ -32,15 +65,6 @@ body {
   margin-left: 2px;
   text-transform: uppercase;
   text-align: left;
-}
-
-.nav-icon {
-  color: #44475a;
-  padding: 3px;
-  border-radius: 2px;
-  height: 24px;
-  width: 24px;
-  text-align: center;
 }
 
 .nav-name {
@@ -116,19 +140,6 @@ body {
   align-self: flex-end;
 }
 
-.footer-icon {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 5px;
-  padding: 2px;
-  border-radius: 20px;
-  font-size: 1.2em;
-  height: 25px;
-  width: 25px;
-  text-align: center;
-  color: #ffff;
-}
-
 .fa-facebook-f {
   background-color: #3b5897;
 }
@@ -145,16 +156,11 @@ body {
   background-color: #5f98ce;
 }
 
-/*******************END NAV*********/
 .heading {
   color: #77c5d7;
   text-transform: uppercase;
   font-size: 1.2em;
   font-weight: 100;
-}
-
-.heading-icon {
-  color: #77c5d7;
 }
 
 .main-heading {
@@ -179,10 +185,33 @@ body {
   color: #ffff;
 }
 
+/*********RELEVANT COLUMN***********/
 .relevant-column {
   flex-grow: 3;
 }
 
+.history-text, .git-repo {
+  width: 100%;
+  color: #515d84;
+}
+
+.post-date {
+  color: #7b7b7f;
+  margin-left: 10px;
+}
+
+.history-text {
+  white-space: nowrap;
+  width: 350px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+table {
+  width: 100%;
+}
+
+/*****GITHUB ISSUES*****/
 .githubIssues-column {
   flex-grow: 1;
 }
@@ -209,16 +238,6 @@ body {
 .comment-link {
   color: #ae5c96;
   margin-bottom: 10px;
-}
-
-.history-text, .git-repo {
-  width: 100%;
-  color: #515d84;
-}
-
-.post-date {
-  color: #7b7b7f;
-  margin-left: 10px;
 }
 
 /************ Time **************/

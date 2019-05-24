@@ -19,35 +19,50 @@ body{
   margin: auto;
 }
 
+/***********ICONS**********/
+.icon{
+  height: 24px;
+  width: 24px;
+  // font-size: 1.2em;
+  text-align: center; 
+  padding: 2px;
+}
+.nav-icon{
+  color: #44475a;
+  border-radius: 2px;
 
+}
+.relevant-icon{
+  font-size: 1.5em;
+  background-color: #f8f8f2;
+  color: #3daced; 
+   padding: 0;
+}
 
+.footer-icon{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  border-radius: 20px;
+  font-size: 1.2em;
+  color: #ffff;
+  }
+
+  .heading-icon{
+    color: #77c5d7;
+  }
 /********NAV BAR********/
 .navigation-column{
   background-color: #44475a;
   min-width: 15vw;
-  //width: 13%;
   flex-grow: 1;
 }
 
 .nav-item{
   padding: 10px;
   margin-left: 2px;
-  // border: red solid 2px;
   text-transform: uppercase;
-  // justify-content: left ; 
-  // font-weight: 300;
   text-align: left;
-}
-
-.nav-icon{
-  color: #44475a;
-  padding: 3px;
-  border-radius: 2px;
-  height: 24px;
-  width: 24px;
-  // font-size: 1.2em;
-  text-align: center;
-
 }
 
 .nav-name{
@@ -114,18 +129,7 @@ align-self: flex-end;
 
 }
 
-.footer-icon{
-margin-top: 20px;
-margin-bottom: 20px;
-margin-left: 5px;
-padding: 2px;
-border-radius: 20px;
-font-size: 1.2em;
-height: 25px;
-width: 25px;
-text-align: center;
-color: #ffff;
-}
+
 .fa-facebook-f{
   background-color: #3b5897;
 }
@@ -139,7 +143,6 @@ color: #ffff;
   background-color: #5f98ce;
 }
 
-/*******************END NAV*********/
 
 .heading{
   // border: solid black 2px;
@@ -149,9 +152,7 @@ color: #ffff;
   font-size: 1.2em;
   font-weight: 100;
 }
-.heading-icon{
-  color: #77c5d7;
-}
+
 
 .main-heading{
   flex-wrap: nowrap;
@@ -160,12 +161,10 @@ color: #ffff;
 /******Popular Column****************/
 .quater{
 flex-grow: 1;
-// flex-basis: auto;
 width: 25vw;
 min-width: 300px;
-// border: solid red 2px;
-
 }
+
 .item{
   margin: 0 10px;
 }
@@ -176,9 +175,34 @@ border-left: #44475a solid 3px;
 color: #ffff;
 }
 
+/*********RELEVANT COLUMN***********/
+
 .relevant-column{
   flex-grow: 3;
 }
+
+.history-text,.git-repo{
+  width:100%;
+  color: #515d84;
+}
+.post-date{
+  color:#7b7b7f;
+  margin-left: 10px;
+}
+
+.history-text{
+  white-space: nowrap;
+  width: 350px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+table{
+  width: 100%;
+  // border:  red solid 2px;
+}
+
+/*****GITHUB ISSUES*****/
 .githubIssues-column{
   flex-grow: 1;
   // width: 20%;
@@ -212,15 +236,7 @@ color: #ffff;
 
 }
 
-.history-text,.git-repo{
-  width:100%;
-  color: #515d84;
-}
-.post-date{
-  color:#7b7b7f;
-  margin-left: 10px;
-  
-}
+
 
 
 
