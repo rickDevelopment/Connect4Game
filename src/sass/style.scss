@@ -21,11 +21,45 @@ body{
   margin: auto;
 }
 
+/*********COLOR*************/
+.blue{
+  color: #8be9fc;
+}
+.orange{
+  color: #f7b76b;
+}
+.green{
+  color:#73f27c;
+}
+.pink{
+  color: #ed76c4;
+}
+.purple{
+  color: #bc93f9;
+}
+
+.white{
+  color: #f8f8f2;
+}
+.yellow{
+  color: #e6db74;
+}
+.gray{
+  color: #44475a;
+}
+
+.light-gray{
+  color: #6272a4;
+}
+.hash-gray{
+  color: #7b7b7f;
+}
+
 /***********ICONS**********/
 .icon{
   height: 1.5rem;
   width: 1.5rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-align: center; 
   padding: .2rem;
 }
@@ -34,6 +68,36 @@ body{
   border-radius: .2rem;
 
 }
+
+.fa-wrench{
+  background-color: #8be9fc;
+}
+.fa-code{
+  background-color: #73f27c;
+}
+.fa-stack-overflow{
+  background-color: #f7b76b;
+}
+.fa-chart-line{
+  background-color: #ed76c4;
+}
+.fa-pencil-alt{
+  background-color: #bc93f9;
+}
+.fa-lightbulb{
+  background-color: #f8f8f2;
+}
+.fa-lock{
+  background-color:  #f8f8f2;
+}
+.small-lock{
+  background-color:#44475a;
+  color: #f8f8f2;
+}
+.fa-question{
+  background-color: #e6db74;
+}
+
 .relevant-icon{
   font-size: 1.5rem;
   background-color: #f8f8f2;
@@ -47,7 +111,6 @@ body{
   margin-left: .2rem;
   border-radius: 2rem;
   font-size: 1.2rem;
-  color: #ffff;
   }
 
   .heading-icon{
@@ -71,58 +134,15 @@ nav.nav-bar {
   text-align: left;
 }
 
+.heading-icon{
+  font-size: 1.2rem;
+}
+
 .nav-name{
   font-size: 1rem;
 }
 
-.setting{
-  color: #8be9fc;
-}
-.fa-wrench {
-  background-color: #8be9fc;
-}
-.gist{
-  color:#73f27c;
-}
 
-.fa-code{
- background-color: #73f27c;
- 
-}
-
-.stack-overflow{
-  color: #f7b76b;
-}
-.fa-stack-overflow {
-  background-color: #f7b76b;
-}
-.trending{
-  color: #ed76c4;
-}
-
-.fa-chart-line {
-  background-color: #ed76c4;
-}
-.scratch-pad{
-  color: #bc93f9;
-}
-.fa-pencil-alt{
-  background-color:#bc93f9;
-}
-
-.playground{
-  color: #f8f8f2;
-}
-.fa-lightbulb{
-background-color: #f8f8f2;
-}
-
-.help{
-  color: #e6db74;
-}
-.fa-question {
-  background-color: #e6db74;
-}
 .heading{
   display: inline-block;
 }
@@ -151,10 +171,7 @@ text-align: center;
 
 
 .heading{
-  // border: solid black 2px;
-  color: #77c5d7;
   text-transform: uppercase;
-  // text-align: center;
   font-size: 1.2rem;
   font-weight: 100;
 }
@@ -176,9 +193,8 @@ min-width: 20rem;
 }
 .summary{
 margin: 0 .5rem;
-
 border-left: #44475a solid .3rem;
-color: #ffff;
+margin-bottom: 30rem;
 }
 .popular-article{
   margin-bottom: 10%;
@@ -192,11 +208,9 @@ color: #ffff;
 
 .history-text,.git-repo{
   width:100%;
-  color: #515d84;
 }
 .post-date{
-  color:#7b7b7f;
-  margin-left: 10px;
+  margin-left: 1rem;
 }
 
 .history-text{
@@ -208,7 +222,6 @@ color: #ffff;
 
 table{
   width: 100%;
-  // border:  red solid 2px;
   border-bottom: solid #515d84 .1rem;
 }
 
@@ -239,32 +252,17 @@ margin-bottom: 10%;
 margin-bottom: 5%;
 }
 
-.posted-by, .issue-num, .yellow{
-  color:#ccd37c;
- 
-}
-.posted-by-text{
-  color: #8be9fc;
-}
-.reddit-score ,.gray{
-  color: #515d84;
-
-}
 .git-heading-text{
   margin-top: 0;
 }
-.comment-link, .pink{
-  color: #ae5c96;
-  margin-bottom: 1rem;
-
+.comment-link{
+  margin-bottom: 2rem;
 }
 
 /************ Time **************/
 .time{
   width: 100%;
-  color: #6272a4;
   text-align: center;
-  // border: red 2px solid;
   margin-top: 10%;
 }
 .clock{
@@ -287,19 +285,7 @@ margin-bottom: 5%;
 .faq{
   width: 100%;
   font-style: normal;
-  color: #6272a4;
   text-align: center;
   display: inline-block;
-  // border: red 2px solid;
-}
-.fa-question-circle, .dont-show{
-  color: #f7b76b;
-  margin: 0;
-  padding: 0;
-}
 
-
-// .nav-footer{
-//   position: fixed;
-//   bottom: 0px;
-// }
+}

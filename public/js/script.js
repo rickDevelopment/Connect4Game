@@ -13,15 +13,12 @@ function updateTime(){
   let getMinutes = date.getMinutes()
 
   //format time
-  if(getHour < 10){
-    getHour = `0${getHour}`
-  }
 
   if(getMinutes < 10){
     getMinutes = `0${getMinutes}`
   }
   //Updte AM/PM
-  (getHour >= 12)? amPm.innerHTML = 'PM': amPm.innerHTML = 'AM'
+  (getHour >= 12)? amPm.innerHTML ='PM': amPm.innerHTML ='AM'
 
   hour.innerHTML= getHour
   minutes.innerHTML = getMinutes

@@ -23,11 +23,52 @@ body {
   margin: auto;
 }
 
+/*********COLOR*************/
+.blue {
+  color: #8be9fc;
+}
+
+.orange {
+  color: #f7b76b;
+}
+
+.green {
+  color: #73f27c;
+}
+
+.pink {
+  color: #ed76c4;
+}
+
+.purple {
+  color: #bc93f9;
+}
+
+.white {
+  color: #f8f8f2;
+}
+
+.yellow {
+  color: #e6db74;
+}
+
+.gray {
+  color: #44475a;
+}
+
+.light-gray {
+  color: #6272a4;
+}
+
+.hash-gray {
+  color: #7b7b7f;
+}
+
 /***********ICONS**********/
 .icon {
   height: 1.5rem;
   width: 1.5rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-align: center;
   padding: 0.2rem;
 }
@@ -35,6 +76,43 @@ body {
 .nav-icon {
   color: #44475a;
   border-radius: 0.2rem;
+}
+
+.fa-wrench {
+  background-color: #8be9fc;
+}
+
+.fa-code {
+  background-color: #73f27c;
+}
+
+.fa-stack-overflow {
+  background-color: #f7b76b;
+}
+
+.fa-chart-line {
+  background-color: #ed76c4;
+}
+
+.fa-pencil-alt {
+  background-color: #bc93f9;
+}
+
+.fa-lightbulb {
+  background-color: #f8f8f2;
+}
+
+.fa-lock {
+  background-color: #f8f8f2;
+}
+
+.small-lock {
+  background-color: #44475a;
+  color: #f8f8f2;
+}
+
+.fa-question {
+  background-color: #e6db74;
 }
 
 .relevant-icon {
@@ -50,7 +128,6 @@ body {
   margin-left: 0.2rem;
   border-radius: 2rem;
   font-size: 1.2rem;
-  color: #ffff;
 }
 
 .heading-icon {
@@ -77,64 +154,12 @@ nav.nav-bar {
   text-align: left;
 }
 
+.heading-icon {
+  font-size: 1.2rem;
+}
+
 .nav-name {
   font-size: 1rem;
-}
-
-.setting {
-  color: #8be9fc;
-}
-
-.fa-wrench {
-  background-color: #8be9fc;
-}
-
-.gist {
-  color: #73f27c;
-}
-
-.fa-code {
-  background-color: #73f27c;
-}
-
-.stack-overflow {
-  color: #f7b76b;
-}
-
-.fa-stack-overflow {
-  background-color: #f7b76b;
-}
-
-.trending {
-  color: #ed76c4;
-}
-
-.fa-chart-line {
-  background-color: #ed76c4;
-}
-
-.scratch-pad {
-  color: #bc93f9;
-}
-
-.fa-pencil-alt {
-  background-color: #bc93f9;
-}
-
-.playground {
-  color: #f8f8f2;
-}
-
-.fa-lightbulb {
-  background-color: #f8f8f2;
-}
-
-.help {
-  color: #e6db74;
-}
-
-.fa-question {
-  background-color: #e6db74;
 }
 
 .heading {
@@ -168,7 +193,6 @@ nav.nav-bar {
 }
 
 .heading {
-  color: #77c5d7;
   text-transform: uppercase;
   font-size: 1.2rem;
   font-weight: 100;
@@ -193,7 +217,7 @@ nav.nav-bar {
 .summary {
   margin: 0 0.5rem;
   border-left: #44475a solid 0.3rem;
-  color: #ffff;
+  margin-bottom: 30rem;
 }
 
 .popular-article {
@@ -207,12 +231,10 @@ nav.nav-bar {
 
 .history-text, .git-repo {
   width: 100%;
-  color: #515d84;
 }
 
 .post-date {
-  color: #7b7b7f;
-  margin-left: 10px;
+  margin-left: 1rem;
 }
 
 .history-text {
@@ -257,31 +279,17 @@ table {
   margin-bottom: 5%;
 }
 
-.posted-by, .issue-num, .yellow {
-  color: #ccd37c;
-}
-
-.posted-by-text {
-  color: #8be9fc;
-}
-
-.reddit-score, .gray {
-  color: #515d84;
-}
-
 .git-heading-text {
   margin-top: 0;
 }
 
-.comment-link, .pink {
-  color: #ae5c96;
-  margin-bottom: 1rem;
+.comment-link {
+  margin-bottom: 2rem;
 }
 
 /************ Time **************/
 .time {
   width: 100%;
-  color: #6272a4;
   text-align: center;
   margin-top: 10%;
 }
@@ -305,15 +313,8 @@ table {
 .faq {
   width: 100%;
   font-style: normal;
-  color: #6272a4;
   text-align: center;
   display: inline-block;
-}
-
-.fa-question-circle, .dont-show {
-  color: #f7b76b;
-  margin: 0;
-  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
