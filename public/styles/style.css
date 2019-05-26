@@ -17,8 +17,9 @@ body {
 
 .container {
   width: 100%;
-  min-width: 500px;
+  min-width: 50rem;
   display: flex;
+  height: 100vh;
   background-color: #272a36;
   margin: auto;
 }
@@ -134,13 +135,16 @@ body {
   color: #77c5d7;
 }
 
+.popular-column, .relevant-column, .githubIssues-column {
+  margin-top: 2%;
+}
+
 /********NAV BAR********/
 .navigation-column {
+  display: inherit;
+  flex-direction: row;
   background-color: #44475a;
-  width: 10%;
-  min-width: 11vw;
   flex-grow: 1;
-  position: relative;
 }
 
 nav.nav-bar {
@@ -170,14 +174,18 @@ nav.nav-bar {
 
 .logo {
   width: 100%;
+  margin-right: 2rem;
+}
+
+.logo-imge {
+  width: 100%;
 }
 
 .nav-footer {
   margin-top: 10rem;
   align-self: flex-end;
   text-align: center;
-  position: absolute;
-  bottom: 0;
+  justify-content: flex-end;
 }
 
 .fa-facebook-f {
@@ -289,8 +297,9 @@ table {
   margin-top: 0;
 }
 
-.comment-link {
+.comment-link a {
   margin-bottom: 2rem;
+  text-decoration: underline;
 }
 
 /************ Time **************/
