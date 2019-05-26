@@ -15,8 +15,11 @@ body{
 }
 .container{
   width: 100%;
-  min-width: 500px;
+  min-width: 50rem;
   display: flex;
+  height: 100vh;
+  // flex-direction: column;
+  // flex-wrap: nowrap;
   background-color:#272a36;
   margin: auto;
  
@@ -117,13 +120,20 @@ body{
   .heading-icon{
     color: #77c5d7;
   }
+
+  .popular-column, .relevant-column,.githubIssues-column{
+    margin-top:2%;
+  }
 /********NAV BAR********/
 .navigation-column{
+  display: inherit;
+  // width: 100%;
+  flex-direction: row;
   background-color: #44475a;
-  width: 10%;
-  min-width: 11vw;
+  // width: 10%;
+  // min-width: 11vw;
   flex-grow: 1;
-  position: relative;
+  // position: relative;
 }
 nav.nav-bar {
   margin-left: .5rem;
@@ -149,16 +159,23 @@ nav.nav-bar {
 .heading{
   display: inline-block;
 }
+
 .logo{
-width: 100%
+width: 100%;
+margin-right: 2rem;
 
 }
+.logo-imge{
+  width: 100%;
+}
+
 .nav-footer{
 margin-top: 10rem;
 align-self: flex-end;
 text-align: center;
-position: absolute;
-bottom: 0;
+justify-content: flex-end;
+// position: absolute;
+// bottom: 0;
 }
 
 
