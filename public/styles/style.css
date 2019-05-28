@@ -145,8 +145,7 @@ body {
   flex-direction: column;
   background-color: #44475a;
   flex-grow: 1;
-  height: 100vh;
-  border: red solid 2px;
+  height: 99vh;
 }
 
 nav.nav-bar {
@@ -155,7 +154,6 @@ nav.nav-bar {
 
 .main-nav-icons-container {
   height: 80vh;
-  border: solid green 2px;
 }
 
 .nav-item {
@@ -188,6 +186,8 @@ nav.nav-bar {
 }
 
 .nav-footer {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -252,11 +252,12 @@ nav.nav-bar {
 
 .post-date {
   margin-left: 1rem;
+  white-space: nowrap;
 }
 
 .history-text {
   white-space: nowrap;
-  width: 380px;
+  width: 80%;
   overflow: hidden;
   text-overflow: ellipsis;
 }
