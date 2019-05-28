@@ -18,6 +18,10 @@ function updateTime(){
     //Updte AM/PM
     (getHour >= 12)? amPm.innerText ='PM': amPm.innerText ='AM'
     
+    //convert time to 12 hor format
+    if(getHour > 12 ){
+      getHour = getHour -12
+    }
     hour.innerText= getHour
     minutes.innerText = getMinutes
 
