@@ -128,16 +128,22 @@ body{
 .navigation-column{
   display: inherit;
   // width: 100%;
-  flex-direction: row;
+  flex-direction: column;
   background-color: #44475a;
   // width: 10%;
   // min-width: 11vw;
   flex-grow: 1;
+  height: 100vh;
+  border: red solid 2px;
   // position: relative;
 }
 nav.nav-bar {
   margin-left: .5rem;
-  margin-top: 2rem;
+  // margin-top: 2rem;
+}
+.main-nav-icons-container{
+  height: 80vh;
+  border: solid green 2px;
 }
 .nav-item{
   padding: .2rem;
@@ -170,10 +176,10 @@ margin-right: 2rem;
 }
 
 .nav-footer{ 
-margin-top: 10rem;
-align-self: flex-end;
+// margin-top: 10rem;
+// align-self: flex-end;
 text-align: center;
-justify-content: flex-end;
+// justify-content: flex-end;
 // position: absolute;
 // bottom: 0;
 }

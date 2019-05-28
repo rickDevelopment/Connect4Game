@@ -142,14 +142,20 @@ body {
 /********NAV BAR********/
 .navigation-column {
   display: inherit;
-  flex-direction: row;
+  flex-direction: column;
   background-color: #44475a;
   flex-grow: 1;
+  height: 100vh;
+  border: red solid 2px;
 }
 
 nav.nav-bar {
   margin-left: 0.5rem;
-  margin-top: 2rem;
+}
+
+.main-nav-icons-container {
+  height: 80vh;
+  border: solid green 2px;
 }
 
 .nav-item {
@@ -182,10 +188,7 @@ nav.nav-bar {
 }
 
 .nav-footer {
-  margin-top: 10rem;
-  align-self: flex-end;
   text-align: center;
-  justify-content: flex-end;
 }
 
 .fa-facebook-f {
