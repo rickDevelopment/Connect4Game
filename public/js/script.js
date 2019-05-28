@@ -7,7 +7,9 @@ function updateTime(){
       const day = document.querySelector('.day');
       const date = new Date(); 
     
+      console.log(date)
     let getHour = date.getHours()
+    console.log(getHour)
     let getMinutes = date.getMinutes()
     
     //format time
@@ -19,10 +21,15 @@ function updateTime(){
     (getHour >= 12)? amPm.innerText ='PM': amPm.innerText ='AM'
     
     //convert time to 12 hor format
-    if(getHour > 12 ){
-      getHour = getHour -12
+    if(getHour >= 12 ){
+      
+      hour.innerText= getHour -12
+    }else if(getHour ==0){
+      hour.innerText= getHour +12
+    }else{
+      hour.innerText= getHour
     }
-    hour.innerText= getHour
+    
     minutes.innerText = getMinutes
 
     //Udate date
