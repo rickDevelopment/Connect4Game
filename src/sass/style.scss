@@ -128,10 +128,14 @@ body{
   }
   .popular-column, .relevant-column,.githubIssues-column{
     margin-top:2%;
-    height: 90%;
-    overflow: auto;
+    
     // border: solid red 2px;
   }
+  .popular-column, .githubIssues-column{
+    overflow: auto;
+  }
+
+  
 /********NAV BAR********/
 .navigation-column{
   display: inherit;
@@ -210,6 +214,7 @@ text-align: center;
 .main-heading{
   flex-wrap: nowrap;
   text-align: center;
+  // position: absolute;
 }
 
 .main-contents{
@@ -223,6 +228,9 @@ flex-grow: 1;
 width: 25vw;
 min-width: 20rem;
 }
+// .details{
+//   margin-top: 5%;
+// }
 
 .item{
   margin-right: 1rem;
@@ -238,6 +246,12 @@ margin-bottom: 3rem;
 
 .relevant-column{
   flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+}
+.javascipt-history-details{
+  height: 30%;
+  overflow: auto;
 }
 
 .history-text,.git-repo{
@@ -257,7 +271,6 @@ margin-bottom: 3rem;
 
 table{
   width: 100%;
-  border-bottom: solid #515d84 .1rem;
 }
 
 /*****GITHUB ISSUES*****/
@@ -299,7 +312,9 @@ margin-bottom: 5%;
 .time{
   width: 100%;
   text-align: center;
-  margin-top: 10%;
+  
+  padding-top: 10%;
+  border-top: solid #515d84 .1rem;
 }
 .clock{
   font-size: 10rem;

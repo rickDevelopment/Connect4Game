@@ -143,7 +143,9 @@ body {
 
 .popular-column, .relevant-column, .githubIssues-column {
   margin-top: 2%;
-  height: 90%;
+}
+
+.popular-column, .githubIssues-column {
   overflow: auto;
 }
 
@@ -253,6 +255,13 @@ nav.nav-bar {
 /*********RELEVANT COLUMN***********/
 .relevant-column {
   flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.javascipt-history-details {
+  height: 30%;
+  overflow: auto;
 }
 
 .history-text, .git-repo {
@@ -273,7 +282,6 @@ nav.nav-bar {
 
 table {
   width: 100%;
-  border-bottom: solid #515d84 0.1rem;
 }
 
 /*****GITHUB ISSUES*****/
@@ -319,7 +327,8 @@ table {
 .time {
   width: 100%;
   text-align: center;
-  margin-top: 10%;
+  padding-top: 10%;
+  border-top: solid #515d84 0.1rem;
 }
 
 .clock {
