@@ -9,6 +9,8 @@ a, a:link {
 
 html {
   font-size: 10px;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -19,10 +21,11 @@ body {
   width: 100%;
   min-width: 50rem;
   display: flex;
-  height: 100vh;
+  height: 98vh;
   overflow: hidden;
   background-color: #272a36;
-  margin: auto;
+  margin: 0;
+  padding: 0;
 }
 
 /*********COLOR*************/
@@ -145,7 +148,8 @@ body {
   margin-top: 2%;
 }
 
-.popular-column, .githubIssues-column {
+.github-details, .reddit-details {
+  height: 90%;
   overflow: auto;
 }
 
@@ -155,7 +159,6 @@ body {
   flex-direction: column;
   background-color: #44475a;
   flex-grow: 1;
-  height: 99vh;
 }
 
 nav.nav-bar {
@@ -327,7 +330,7 @@ table {
 .time {
   width: 100%;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 15%;
   border-top: solid #515d84 0.1rem;
 }
 

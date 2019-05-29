@@ -7,6 +7,8 @@ color:inherit;
 }
  html{
    font-size: 10px;
+   padding: 0;
+   margin: 0;
  }
 
 body{
@@ -17,12 +19,13 @@ body{
   width: 100%;
   min-width: 50rem;
   display: flex;
-  height: 100vh;
+  height: 98vh;
   overflow: hidden;
   // flex-direction: column;
   // flex-wrap: nowrap;
   background-color:#272a36;
-  margin: auto;
+  margin: 0;
+  padding: 0;
  
 }
 
@@ -128,12 +131,13 @@ body{
   }
   .popular-column, .relevant-column,.githubIssues-column{
     margin-top:2%;
-    
     // border: solid red 2px;
   }
-  .popular-column, .githubIssues-column{
+  .github-details,.reddit-details {
+    height: 90%;
     overflow: auto;
   }
+
 
   
 /********NAV BAR********/
@@ -142,7 +146,7 @@ body{
   flex-direction: column;
   background-color: #44475a;
   flex-grow: 1;
-  height: 99vh;
+  // height: 98vh;
 }
 nav.nav-bar {
   margin-left: .5rem;
@@ -286,6 +290,7 @@ table{
   text-align: center;
   margin-bottom: 10%;
 }
+
   .summary, .history-text{
   font-size: 1rem;
   text-align: left;
@@ -313,7 +318,7 @@ margin-bottom: 5%;
   width: 100%;
   text-align: center;
   
-  padding-top: 10%;
+  padding-top: 15%;
   border-top: solid #515d84 .1rem;
 }
 .clock{
