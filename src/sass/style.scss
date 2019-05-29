@@ -18,6 +18,7 @@ body{
   min-width: 50rem;
   display: flex;
   height: 100vh;
+  overflow: hidden;
   // flex-direction: column;
   // flex-wrap: nowrap;
   background-color:#272a36;
@@ -121,8 +122,15 @@ body{
     color: #77c5d7;
   }
 
+  /*************SCROLL BAR****************/
+  ::-webkit-scrollbar{
+    width: 1rem;
+  }
   .popular-column, .relevant-column,.githubIssues-column{
     margin-top:2%;
+    height: 90%;
+    overflow: auto;
+    // border: solid red 2px;
   }
 /********NAV BAR********/
 .navigation-column{
